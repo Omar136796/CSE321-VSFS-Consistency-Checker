@@ -22,7 +22,7 @@ The checker works on a 256 KB image made of 64 blocks of 4096 bytes:
 | 8–63 | Data blocks |
 
 Each inode stores the file's mode, owner, size, timestamps, link count, block
-count, one direct block pointer, and single, double, and triple indirect
+count, one direct block pointer and single, double, and triple indirect
 pointers.
 
 ## Checks
